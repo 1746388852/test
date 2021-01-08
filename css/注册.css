@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+.wrapper .wrap{
+    padding-bottom: 80px;
+}
+.wrapper .wrap .wrap1{
+    width: 854px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.wrapper .wrap .wrap1 .wrap11{
+    padding-bottom: 30px;
+    border: none;
+    border-radius: 0;
+    padding-top: 0;
+    background: #fff;
+    padding: 34px 34px 0;
+}
+.wrapper .wrap .wrap1 .wrap11 .wrap11_logo{
+    padding-bottom: 40px;
+    display: block;
+}
+.wrapper .wrap .wrap1 .wrap11 .wrap11_logo .logo{
+    width: 49px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    cursor: default;
+    background: url("https://account.xiaomi.com/static/res/349d9c1/account-static/respassport/acc-2014/img/milogo.png");
+}
+.wrapper .wrap .wrap1 .wrap11 .wrap11_title{
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    clear: both;
+    text-align: center;
+}
+.wrapper .wrap .wrap1 .wrap11 .wrap11_title .title{
+    font-size: 30px;
+    font-weight: normal;
+    color: #333;
+    line-height: 1.5;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box{
+    margin: 0 auto;
+    width: 332px;
+    padding: 30px 0;
+    line-height: 20px;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .title{
+    padding-bottom: 5px;
+    color: #333;
+    font-weight: normal;
+    font-size: 14px;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone1{
+    padding-bottom: 15px;
+    position: relative;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone1 .phone11 .phone111{
+    height: 40px;
+    padding-left: 14px;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #e8e8e8;
+    color: #555;
+    cursor: pointer;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone1 .phone11 .phone111::before,.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone1 .phone11 .phone111::after{
+    content: '';
+    display: block;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone1 .phone11 .phone111::after{
+    clear: both;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone1 .phone11 .phone111 p{
+    float: left;
+    width: 275px;
+    border-right: 1px solid #e8e8e8;
+    cursor: pointer;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone1 .phone11 .phone111 i{
+    float: right;
+    width: 16px;
+    height: 16px;
+    margin: 11px 12px 0 12px;
+    background: url("https://account.xiaomi.com/static/res/0eeaaed/passport/oauth/images/icon_user.png");
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone2{
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone3::before,.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone3::after{
+    content: '';
+    display: block;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone3::after{
+    clear: both;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone3 .phone31{
+    padding-bottom: 15px;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone3 .phone31 .labelbox{
+    margin-left: -1px;
+    position: relative;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    border: 1px solid #e8e8e8;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone3 .phone31 .labelbox .phone311{
+    float: left;
+    border-right: 1px solid #e8e8e8;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone3 .phone31 .labelbox .phone311 .phone3111{
+    width: 54px;
+    text-align: center;
+    border: 0 none;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone3 .phone31 .labelbox .phone311 .phone3111::before,.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone3 .phone31 .labelbox .phone311 .phone3111::after{
+    content: '';
+    display: block;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone3 .phone31 .labelbox .phone311 .phone3111::after{
+    clear: both;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone3 .phone31 .labelbox .phone311 .phone3111 p{
+    width: auto;
+    border-right: 0 none;
+    float: left;
+    cursor: pointer;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone3 .phone31 .labelbox input{
+    width: 240px;
+    height: 20px;
+    line-height: 20px;
+    padding: 9px;
+    display: inline-block;
+    border: 0 none;
+    outline: none;
+}
+.wrapper .wrap .wrap1 .wrap11 div .box .phone .phone4 .inp1{
+    background-color: #ff6700;
+    margin-top: 15px;
+    border: 1px solid;
+    color: #fff;
+    width: 330px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    cursor: pointer;
+}

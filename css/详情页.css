@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1226px;
+    margin: 0 auto;
+}
+.container::before,.container::after{
+    content: '';
+    display: table;
+}
+.container::after{
+    clear: both;
+}
+.div1{
+    position: fixed;
+    top: 0;
+    background: #fff;
+    margin-top: 0;
+    border-bottom: 1px solid #e0e0e0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+}
+.div1 .div11{
+    position: relative;
+    height: 63px;
+    width: 100%;
+    margin-top: 0;
+    color: #616161;
+}
+.div1 .div11 .right{
+    float: right;
+    margin: 17px 0 0 0;
+}
+.div1 .div11 .right .btn{
+    display: inline-block;
+    color: #fff;
+    margin-left: 5px;
+    background: #ff6700;
+    border-color: #ff6700;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.div2 .div21{
+    min-width: 1226px;
+}
+.div2 .div21 .div211{
+    width: 100%;
+    height: 892.03px;
+    background: url("https://cdn.cnbj1.fds.api.mi-img.com/product-images/mi11/section1-1.jpg") no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    text-align: left;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+}
+.div2 .div21 .div211 img{
+    width: 211px;
+    height: 113px;
+    margin: 165px 0 0 165px;
+}
+.div2 .div21 .div212{
+    text-align: center;
+    background: #000;
+    overflow: hidden;
+    padding-bottom: 3.86rem;
+    position: relative;
+}
+.div2 .div21 .div212 .phone{
+    width: 883px;
+    height: 404px;
+    color: #fff;
+}
+.div2 .div21 .div212 .title{
+    font-size: .74rem;
+    line-height: 1.06rem;
+    white-space: nowrap;
+    border: none;
+    margin: 390px 0 60px;
+    width: 100%;
+    color: #fff;
+    font-size: 48px;
+    line-height: 36px;
+    white-space: nowrap;
+}
+.div2 .div21 .div212 .title1{
+    font-size: 24px;
+    color: #aaa;
+    line-height: 60px;
+    margin-bottom: 30px;
+}

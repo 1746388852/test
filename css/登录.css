@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display: block;
+    min-height: auto;
+    position: relative;
+    width: 100%;
+    height: 686px;
+    -webkit-box-align: center;
+}
+.wrapper .div1{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+.wrapper .div1 .div11{
+    width: 1130px;
+    margin: 0 auto;
+    height: 98px;
+}
+.wrapper .div1 .div11 .div11_logo{
+    width: 200px;
+    height: 98px;
+    background: url("https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png") no-repeat;
+}
+.wrapper .div1 .div11 .div11_logo a{
+    display: block;
+    height: 98px;
+}
+.wrapper .div1 .div12{
+    background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/72644d9b8031286de3cc74e151aefd90.jpg") no-repeat;
+    width: 100%;
+    height: 588px;
+    position: absolute;
+    left: 0;
+    top: 98px;
+    background-position: top center;
+}
+.wrapper .div1 .div12 a{
+    display: block;
+    height: 588px;
+}
+.wrapper .div2{
+    padding-bottom: 0;
+    position: relative;
+    width: 100%;
+}
+.wrapper .div2 .div21{
+    padding-top: 130px;
+    width: 1130px;
+    margin: 0 auto;
+}
+.wrapper .div2 .div21 .div211{
+    width: 410px;
+    min-height: 556px;
+    margin-bottom: 0;
+    margin-right: 0;
+    font-size: 14px;
+    z-index: 1;
+    background-color: #fff;
+    max-width: 854px;
+    margin: 0 720px;
+    position: relative;
+}
+.wrapper .div2 .div21 .div211 .div2111{
+    padding-bottom: 0;
+}
+.wrapper .div2 .div21 .div211 .div2111 .div21111{
+    display: block;
+}
+.wrapper .div2 .div21 .div211 .div2111 .div21111 .div211111{
+    padding: 27px 0 24px;
+    text-align: center;
+    font-size: 24px;
+    color: #666;
+}
+.wrapper .div2 .div21 .div211 .div2111 .div21111 .div211111 a{
+    color: crimson;
+    text-decoration: none;
+}
+.wrapper .div2 .div21 .div211 .div2112{
+    display: block;
+}
+.wrapper .div2 .div21 .div211 .div2112 div .div21121{
+    width: 348px;
+    padding-bottom: 0;
+    margin: 0 auto;
+}
+.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211{
+    position: relative;
+}
+.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211::before,.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211::after{
+    content: '';
+    display: block;
+}
+.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211::after{
+    clear: both;
+}
+.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211 .div211211_input{
+    position: relative;
+}
+.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211 .div211211_input::before,.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211 .div211211_input::after{
+    content: '';
+    display: block;
+}
+.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211 .div211211_input::after{
+    clear: both;
+}
+.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211 .div211211_input label::before,.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211 .div211211_input label::after{
+    content: '';
+    display: block;
+}
+.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211 .div211211_input label::after{
+    clear: both;
+}
+.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211 .div211211_input label input{
+    width: 306px;
+    height: 22px;
+    line-height: 22px;
+    padding: 13px 16px 13px 14px;
+    display: block;
+    outline: none;
+    border: none;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 14px;
+}
+.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211 .div211211_input label .item{
+    float: none;
+}
+.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211 .div211211_input .pwd{
+    position: relative;
+}
+.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211 .div211211_input .pwd::before,.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211 .div211211_input .pwd::after{
+    content: '';
+    display: block;
+}
+.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211 .div211211_input .pwd::after{
+    clear: both;
+}
+.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211 .div211211_btn{
+    padding-top: 10px;
+}
+.wrapper .div2 .div21 .div211 .div2112 div .div21121 .div211211 .div211211_btn .btn{
+    background-color: #ff6700;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
